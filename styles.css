@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,500&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    font-size: 18px;
+    margin: 0;
+}
+
+aside {
+    
+    width: 20%;
+    padding: 90px;
+    margin-right: 20%;
+    background-color: #f0f0f0;
+    font-size: 15px;
+    display: inline-block;
+}
+
+
+h1 {
+    font-size: 35px;
+    color:#581B04;
+    margin-top: 50px;
+    text-align: center;    
+        
+}
+
+h2{
+    font-size: 45px;
+    color:#581B04;
+    margin-top: 50px;
+    text-align: center;
+}
+
+h3 {
+    color:#924f2a
+
+}
+
+h4 {
+    padding: 000px -900px;     
+    margin-left: 200px;
+    margin-top: 120px;
+    font-size: 35px;
+    color:#581B04;
+    text-align: left;
+}
+
+p {
+    font-size: 18px;
+}
+
+ul, ol {
+    list-style: none;
+  }
+  
+  a, a:hover, a:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  header {
+    background-color: #FFFFFF;
+    text-align: center;
+    padding-top: 4px;
+  }
+  
+  header img{
+    width: 190px;
+    margin: 16px;
+  }
+
+  header nav {
+    line-height: 32px;
+    background-color: #924f2a;
+    text-align: center;
+    font-weight: bold;
+    
+  }
+
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+    color: #FFFFFF;
+  }
+  
+  nav ul li a {
+    padding: 2px 10px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #FFFFFF;
+    color: #924f2a;
+    border-radius: 5px;
+  }
+  
+  nav ul li a:focus {
+    text-decoration: underline;
+  }
+
+.container.aside {
+    display: inline-block;
+   
+}
+
+#ocoffee {
+    width: 70%;
+    padding: 100px 300px;
+    background-color: #ffffff;
+    height: 10rem;    
+    margin-top: -400px;
+    margin-left: 500px;
+    margin-bottom: 200px;
+    font-size: 20px;
+    
+}
+
+.column {
+    width: 25%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+#banner img {
+    width: 100%;
+}
+
+#cardapio {
+    background-color: #e9e4e0;
+    height: 41.5rem;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.cardapio-item {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#cardapio p {
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 100px;
+    padding: 0px 1060px 0px 100px;
+    font-size: 20px;
+    
+}
+
+#cardapio img {
+    float: right;
+    margin-left: 100px;
+    margin-top: -140px;
+}
+
+
+#produtos {
+    background-color: #ffffff;
+    height:40px;    
+         
+}
+
+main {
+    text-align: center;
+    
+    
+}
+
+main article {
+    display: inline-block;
+    width: 450px; 
+    text-align: center;
+    
+}
+
+main article {    
+    margin: 20px; 
+    text-align: center;
+    padding-top: 50px;
+   
+}
+
+main article img {
+    height: auto;
+    border-radius: 20px;
+    align-items: center;
+    width: 70%;
+    margin-bottom: 30px;
+    
+}
+
+figcaption {
+    font-weight: bold;
+    color:#581B04;
+    font-size: 30px;
+    margin-bottom: 150px;
+}
+
+#delivery {
+background-color: #e9e4e0;
+height: 41.5rem;
+
+}
+
+#delivery h1 {
+   
+    padding-top: 100px;  
+   
+}
+
+
+
+#delivery p {
+    text-align: center;
+    margin-top: 50px;      
+    margin-right: 30px; 
+    margin-left: 500px; 
+    font-size: 20px;
+    
+}
+
+#delivery img {
+    float: left;
+    margin-right: 50px;
+    padding-right: 70px;
+}
+
+#delivery button {
+    font-size: 18px;
+}
+
+#delivery button {
+    background-color: #581B04;
+    color: #FFFFFF;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    align-items: center;
+    font-size: 25px;
+    margin: 100px 240px 200px 500px;
+    transition: background-color 0.3s ease;    
+}
+
+#delivery button:hover {
+    background-color: #A5663C;
+
+}
+
+.clientes figure {
+    display: inline-block;
+    width: 450px;
+    height: auto;
+    
+}
+.clientes figure {
+    margin: 60px 10px 0 10px;
+    
+}
+
+.clientes figure img {
+    height: auto;
+    width: 100%;
+    border-radius: 20px;
+    align-items: center;
+    
+    
+}
+
+#clientes {
+    background-color: #ffffff;
+    height: 45rem;
+    text-align: center;   
+
+}
+
+#eventos {
+   background-color: #e9e4e0;
+   height: 35rem;
+   padding-top: 5px;
+      
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ffffff;
+    text-align: center;
+    padding: 8px;
+}
+
+table tr:first-child {
+    background-color: #f8d7c3; 
+    color: #a5663c
+}
+
+table tr:not(:first-child) {
+    background-color: #f7e9df; 
+    color: #434342
+}
+
+.tabela-container {
+    margin-top: 100px;
+}
+
+#newsletter {
+    background-color: #ffffff;
+    height: 41.5rem;
+    
+}
+
+#newsletter p {
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 100px;
+    
+}
+
+#newsletter img {
+    float: right;
+    margin-left: 100px;
+    margin-top: -50px;
+    height: 714px;
+    
+    
+}
+
+#newsletter button {
+    background-color: #581B04;
+    color: #FFFFFF;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    align-items: center;
+    font-size: 25px;
+    margin: 50px;    
+    margin-left: 200px;
+}
+
+
+#newsletter {
+    
+    align-items: center;
+    text-align: center;
+}
+
+
+#newsletter p {
+    margin-bottom: 20px;
+    margin-right: 610px;
+    text-align: center;
+}
+
+#newsletter h2 {
+    font-size: 80px;
+    text-align: center;
+    margin-left: 60px;
+    font-weight: 900;
+}
+
+
+#newsletter label {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+#newsletter label input[type="email"] {
+    border: 1px solid #581B04;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 360px;
+    height: 40px;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    align-self: center;
+    transition: background-color 0.3s ease; 
+    margin-top: 30px;
+}
+
+#newsletter button:hover {
+    background-color: #A5663C;
+    
+
+}
+
+#newsletter label input[type="checkbox"] {
+    margin-left: 10px;
+}
+
+#newsletter button {
+    font-size: 18px;
+}
+
+
+footer {
+    background-color: #581B04;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    height: 100px;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 15px;
+    color: #FFFFFF;
+}
